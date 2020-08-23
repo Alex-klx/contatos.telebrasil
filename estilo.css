@@ -13,7 +13,7 @@ body{background-color: #00A859;
 	height: 100%;
 }
 /* Cabecalho -----------------------------------*/
-header{background-color:white;
+header{background-color:red;
 	position: absolute;
 	display: block;
 	width: 100%;
