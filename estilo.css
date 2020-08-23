@@ -58,3 +58,10 @@ section ul li img{
 section ul{
 	background: transparent;
 }
+iframe{
+	width:100%;
+	height:877px;
+}
+.map{
+	top: 20%;
+}
