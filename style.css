@@ -329,3 +329,74 @@ fill: #0077ED;
     color:rgb(34, 34, 34);
     font-size: 10.5pt;
 }
+
+#cxpopup{
+    position: absolute;
+    display: none;
+    width: 80%;
+    background-color: white;
+    border: 2px solid #0077ED;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 10px 5px 10px;
+    font-family: Gadugi;
+    color: #0077ED;
+}
+#cxpopup p{
+    color: rgb(15, 15, 15);
+    font-size: 11pt;
+}
+#cxpopup button{
+    margin: 18px 0 18px 0;
+}
+#xxxx{
+    z-index: 3;
+    background-color: red;
+}
+
+#xxxxxxx{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    right: -6px;
+    cursor: pointer;
+}
+#xxxxxxx::after{
+    content: '';
+    display: block;
+    position: relative;
+    background-color: #0363c4;
+    width: 4px;
+    border-radius: 4px;
+    height: 100%;
+    transform: rotate(-45deg);
+}
+#xxxxxxx::before{
+    content: '';
+    display: block;
+    position: absolute  ;
+    background-color: #0077ED;
+    width: 4px;
+    height: 100%;
+    transform: rotate(45deg);
+    border-radius: 4px;
+}
+
+#cxpopupeco{
+    position: absolute;
+    display: none;
+    width: 80%;
+    background-color: white;
+    border: 2px solid #0077ED;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 10px 5px 10px;
+    font-family: Gadugi;
+    color: #0077ED;
+}
