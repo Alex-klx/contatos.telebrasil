@@ -244,7 +244,7 @@ button{
     display: block;
 }
 footer{
-    background-image: url("cab.jpg");
+    background-image: url("rodape.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -334,25 +334,31 @@ fill: #0077ED;
     position: absolute;
     display: none;
     width: 80%;
-    background-color: #0077ED;
+    background-color: rgb(245, 245, 245);
     border-radius: 4px;
     z-index: 2;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    padding: 0 10px 5px 10px;
+    padding: 0px 10px 0 10px;
     font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
-    color: white;
+    color: #006dda;
     border: 2px solid #0077ED;
 }
+#cxpopup img{
+    border-radius: 4px;
+    padding: 3px; 
+    background-color: white; 
+    display: block; 
+}
 #cxpopup p{
-    color: rgb(247, 247, 247):
+    color: rgb(12, 12, 12);
     font-size: 9.5pt;
 }
 #cxpopup button{
-    margin: 18px 0 18px 0;
-    background-color: white;
-    color: #0077ED;
+    margin: 10px 0 15px 0;
+    background-color: #0077ED;
+    color: white;
 }
 #xxxx{
     z-index: 3;
@@ -402,4 +408,15 @@ fill: #0077ED;
     padding: 0 10px 5px 10px;
     font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     color: #0077ED;
+}
+
+#capa{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+#capa img{
+    display: block;
+    position: relative;
+    width: 100%;
 }
