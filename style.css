@@ -35,7 +35,7 @@ button{
     background-size: 100%;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.747);
     padding: 15px 0;
-    font-family:  Gadugi, Arial, Helvetica, sans-serif;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
 }
 #cabecalho::after{
     content: 's';
@@ -53,7 +53,7 @@ button{
     width: 95%;
     margin: 0 auto;
     height: 100%;
-    font-family:  Gadugi, Arial, Helvetica, sans-serif;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     z-index: 1;
 }
 #dispflex{
@@ -72,15 +72,15 @@ button{
 #Txt{
     margin-left: 10px;
     width: 100%;
-    font-family:  Gadugi, Arial, Helvetica, sans-serif;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
 }
 #Txt h2{
     color: rgba(255, 255, 255, 0.973);
-    font-family:  Gadugi, Arial, Helvetica, sans-serif;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
 }
 #Txt p{
     color: rgb(233, 233, 233);
-    font-family:  Gadugi, Arial, Helvetica, sans-serif;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
 }
 #Txt button{
     margin-top: 5px;
@@ -175,7 +175,7 @@ button{
     border-radius: 3px;
     border: .3px solid rgba(0, 0, 0, 0.178);
     font-size: 16px;
-    font-family: sans-serif, Arial;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     color: white;
     background-color: #0077ED;
     width: 100%;
@@ -191,14 +191,14 @@ button{
 }
 #Txt{
     margin-left: 10px;
-    font-family:  Gadugi, Arial, Helvetica, sans-serif;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
 }
 #Txt h2{
-    font-family:  Gadugi, Arial, Helvetica, sans-serif;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     color: rgba(255, 255, 255, 0.973);
 }
 #Txt p{
-    font-family:  Gadugi, Arial, Helvetica, sans-serif;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     color: rgb(233, 233, 233);
     font-size: 9pt;
 }
@@ -256,7 +256,7 @@ footer h2{
     padding: 20px 0;
     font-size: 14px;
     background: rgba(0, 0, 0, 0.582);
-    font-family: sans-serif;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     font-weight: normal;
     text-align: center;
 }
@@ -282,7 +282,7 @@ footer h2{
     width: 60px;
     border-radius: 3px;
     right: 15px;
-    font-family:  Gadugi, Arial, Helvetica, sans-serif;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
 }
 .a1111{
 width: 15px;
@@ -315,10 +315,10 @@ fill: #0077ED;
     transform: translate(-50%,0);
     top: 30%;
     transform: translate(-50%,-0);
-    font-family:  Gadugi, Arial, Helvetica, sans-serif;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
 }
 #cxsobre h2{
-    font-family:  Gadugi, Arial, Helvetica, sans-serif;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     color: white;
 }
 #cxsobre p{
@@ -341,7 +341,7 @@ fill: #0077ED;
     top: 50%;
     transform: translate(-50%,-50%);
     padding: 0 10px 5px 10px;
-    font-family: Gadugi;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     color: white;
     border: 2px solid #0077ED;
 }
@@ -400,6 +400,6 @@ fill: #0077ED;
     top: 50%;
     transform: translate(-50%,-50%);
     padding: 0 10px 5px 10px;
-    font-family: Gadugi;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     color: #0077ED;
 }
