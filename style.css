@@ -334,22 +334,25 @@ fill: #0077ED;
     position: absolute;
     display: none;
     width: 80%;
-    background-color: white;
-    border: 2px solid #0077ED;
+    background-color: #0077ED;
+    border-radius: 4px;
     z-index: 2;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     padding: 0 10px 5px 10px;
     font-family: Gadugi;
-    color: #0077ED;
+    color: white;
+    border: 2px solid #0077ED;
 }
 #cxpopup p{
-    color: rgb(15, 15, 15);
-    font-size: 11pt;
+    color: rgb(247, 247, 247):
+    font-size: 9.5pt;
 }
 #cxpopup button{
     margin: 18px 0 18px 0;
+    background-color: white;
+    color: #0077ED;
 }
 #xxxx{
     z-index: 3;
@@ -369,7 +372,7 @@ fill: #0077ED;
     content: '';
     display: block;
     position: relative;
-    background-color: #0363c4;
+    background-color: white;
     width: 4px;
     border-radius: 4px;
     height: 100%;
@@ -379,7 +382,7 @@ fill: #0077ED;
     content: '';
     display: block;
     position: absolute  ;
-    background-color: #0077ED;
+    background-color: rgb(241, 241, 241);
     width: 4px;
     height: 100%;
     transform: rotate(45deg);
