@@ -152,6 +152,8 @@ button{
 
 
 @media only screen and (max-width: 565px) { /* ---------------------------------------------------  Media ------------------------- */
+
+    
     #cxpopup img{
         margin: 0 auto;
         border-radius: 4px;
@@ -262,7 +264,7 @@ footer #créditos h2{
     color: white;
     padding: 20px 0;
     font-size: 14px;
-    background: rgba(0, 0, 0, 0.788);
+    background: rgba(0, 0, 0, 0.979);
     font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     font-weight: normal;
     text-align: center;
@@ -485,12 +487,16 @@ fill: #0077ED;
     font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     color: white;
     display: flex;
+    flex-wrap: wrap;
 }
 #redess, #tels{
     position: relative;
     display: block;
-
     margin: 10px;
+    font-size: 9pt;
+}
+#tels ol li{
+    font-size: 9pt;
 }
 
 #cxcontacts ol{
@@ -500,12 +506,13 @@ fill: #0077ED;
 #cxcontacts li{
 border: 2px solid white;
 margin: 6px;
-background-color: rgba(0, 0, 0, 0.699);
+color: black;
+font-weight: bolder;
+background-color: white;
 border-radius: 3px;
 padding: 2px 10px;
 text-align: center;
 list-style: none;
-font-size: 10pt;
 }
 #cxcontacts h2{
     font-size: 13pt;
