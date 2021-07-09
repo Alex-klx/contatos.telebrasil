@@ -22,17 +22,17 @@
             var black = document.getElementById('blackbagd')
             black.style.display='none'
         }
-        function tapSaberEco(){
-            alert('Em desenvolvimento.')
-            var cxsobre = document.getElementById("cxpopupeco")
-            cxsobre.style.display='none'
-        }
         function tapLoc(){
-            alert('Em desenvolvimento.')
-            document.getElementById('butLoc').css({
-        "opacity" : "2",
-        "transition" : "opacity 5"
-    });
+            var black = document.getElementById('blackbagd')
+            black.style.display='block'
+            var cxLoct = document.getElementById('cxloct')
+            cxLoct.style.display='block'
+        }
+        function closeLoct(){
+            var black = document.getElementById('blackbagd')
+            black.style.display='none'
+            var cxLoct = document.getElementById('cxloct')
+            cxLoct.style.display='none'
         }
     </script>
     <div id="cxpopup">
@@ -46,17 +46,11 @@
         <button>Enviar uma Mensagem</button>
     </div>
 
-    <div id="cxpopupeco">
-        <div onclick="closeSobre()" id="xxxxxxx"></div>
-        <img src="imgsobre.png">
-        <h2>E-Coleta Telebrasil</h2>
-        <p>
-            Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste
-            Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste
-            Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste
-            Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste
-        </p>
-        <button>Enviar uma Mensagem</button>
+    <div id="cxloct">
+        <div onclick="closeLoct()" id="xxxxl"></div>
+        <h3>RUA T-64, Nº 1004, SALA 08 - St. Bueno, Goiânia-GO, CEP 74230-110</h3>
+        <iframe id="ifmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.2229357847395!2d-49.27057578574819!3d-16.715724650739876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef0df506b7d95%3A0xa3ad85a545f4a406!2sTeleBrasil!5e0!3m2!1spt-BR!2sbr!4v1625794570728!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+        <a target="Blank" href="https://goo.gl/maps/vD41qN8sYHYMuwJ46"><button>Abrir no Aplicativo</button></a>
     </div>
 
     <div id="blackbagd">  </div>
