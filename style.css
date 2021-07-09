@@ -351,7 +351,6 @@ fill: #0077ED;
     font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     color: #006dda;
     border: 3px solid white;
-    transition: opacity 2s;
 }
 #cxpopup img{
     width: 160px;
@@ -367,10 +366,6 @@ fill: #0077ED;
     margin: 10px 0 0 0;
     background-color: #0077ED;
     color: white;
-}
-#xxxx{
-    z-index: 3;
-    background-color: red;
 }
 
 #xxxxxxx{
@@ -403,19 +398,64 @@ fill: #0077ED;
     border-radius: 4px;
 }
 
-#cxpopupeco{
+#cxloct{
     position: absolute;
     display: none;
     width: 80%;
-    background-color: white;
-    border: 2px solid #0077ED;
-    z-index: 2;
+    background-color: rgb(245, 245, 245);
+    border-radius: 4px;
+    z-index: 3;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    padding: 0 10px 5px 10px;
+    padding: 10px;
     font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
-    color: #0077ED;
+    color: #006dda;
+    border: 3px solid white;
+}
+
+#cxloct #ifmap{
+    width: 100%;
+    border: 3px solid rgb(197, 197, 197);
+    margin-top: 20px;
+}
+#cxloct button{
+    display: block;
+    margin: 5px auto 0 auto;
+}
+#cxloct h3{
+    font-size: 10pt;
+    color: rgb(68, 68, 68);
+}
+
+#xxxxl{
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    right: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#xxxxl::after{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #0077ED;
+    width: 4px;
+    border-radius: 4px;
+    height: 100%;
+    transform: rotate(-45deg);
+}
+#xxxxl::before{
+    content:'';
+    display: block;
+    position: absolute ;
+    background-color: #005bb6;
+    width: 4px;
+    height: 100%;
+    transform: rotate(45deg);
+    border-radius: 4px;
 }
 
 #capa{
