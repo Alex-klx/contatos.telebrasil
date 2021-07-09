@@ -376,16 +376,16 @@ fill: #0077ED;
 #xxxxxxx{
     position: absolute;
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    right: 0px;
     border-radius: 50%;
-    right: -6px;
     cursor: pointer;
 }
 #xxxxxxx::after{
     content: '';
     display: block;
-    position: relative;
+    position: absolute;
     background-color: #0077ED;
     width: 4px;
     border-radius: 4px;
@@ -395,7 +395,7 @@ fill: #0077ED;
 #xxxxxxx::before{
     content:'';
     display: block;
-    position: absolute  ;
+    position: absolute ;
     background-color: #005bb6;
     width: 4px;
     height: 100%;
