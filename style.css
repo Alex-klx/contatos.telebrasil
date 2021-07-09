@@ -485,19 +485,23 @@ fill: #0077ED;
 #cxcontacts{
     background: rgba(0, 0, 0, 0.678);
     font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
-    color: white;
     display: flex;
     flex-wrap: wrap;
+}
+#cxcontacts h2 {
+    color: white;
 }
 #redess, #tels{
     position: relative;
     display: block;
+    color: black;
     margin: 10px;
     font-size: 9pt;
 }
 
 #cxcontacts ol{
     display:flex;
+    color: black;
 }
 
 #cxcontacts li{
