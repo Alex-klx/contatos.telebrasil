@@ -347,7 +347,7 @@ fill: #0077ED;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    padding: 0px 10px 0 10px;
+    padding: 10px;
     font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     color: #006dda;
     border: 3px solid white;
@@ -357,8 +357,6 @@ fill: #0077ED;
     width: 160px;
     margin: 0 auto;
     border-radius: 4px;
-    padding: 3px; 
-    background-color: white;
     display: block; 
 }
 #cxpopup p{
@@ -366,7 +364,7 @@ fill: #0077ED;
     font-size: 9.5pt;
 }
 #cxpopup button{
-    margin: 10px 0 15px 0;
+    margin: 10px 0 0 0;
     background-color: #0077ED;
     color: white;
 }
