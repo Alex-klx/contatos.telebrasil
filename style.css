@@ -485,7 +485,6 @@ fill: #0077ED;
     font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     color: white;
     display: flex;
-    flex-wrap: nowrap;
 }
 #redess, #tels{
     position: relative;
