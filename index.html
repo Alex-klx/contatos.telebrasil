@@ -11,12 +11,16 @@
 <body>
     <script>
         function tapSobre(){
+            var black = document.getElementById('blackbagd')
+            black.style.display='block'
             var cxsobre = document.getElementById("cxpopup")
             cxsobre.style.display='block'
         }
         function closeSobre(){
             var cxsobre = document.getElementById("cxpopup")
             cxsobre.style.display='none'
+            var black = document.getElementById('blackbagd')
+            black.style.display='none'
         }
         function tapSaberEco(){
             alert('Em desenvolvimento.')
@@ -25,6 +29,10 @@
         }
         function tapLoc(){
             alert('Em desenvolvimento.')
+            document.getElementById('butLoc').css({
+        "opacity" : "2",
+        "transition" : "opacity 5"
+    });
         }
     </script>
     <div id="cxpopup">
@@ -51,6 +59,8 @@
         <button>Enviar uma Mensagem</button>
     </div>
 
+    <div id="blackbagd">  </div>
+
     <header id="cabecalho">
         <div id="cxImgTxt">
             <div id="dispflex">
@@ -73,7 +83,7 @@
         </div>
     </header>
     <div id="capa">
-        <img src="capa.png">
+        <img src="https://http2.mlstatic.com/storage/splinter-admin/o:f_webp,q_auto:best/1625688445455-home-sliderdesktop.jpg">
     </div>
 
 
