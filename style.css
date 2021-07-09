@@ -151,7 +151,14 @@ button{
 
 
 
-@media only screen and (max-width: 565px) {
+@media only screen and (max-width: 565px) { /* ---------------------------------------------------  Media ------------------------- */
+    #cxpopup img{
+        margin: 0 auto;
+        border-radius: 4px;
+        padding: 3px; 
+        background-color: white; 
+        display: block; 
+    }
     #cabecalho{
         background-position-y: -15px;
     }
@@ -336,20 +343,22 @@ fill: #0077ED;
     width: 80%;
     background-color: rgb(245, 245, 245);
     border-radius: 4px;
-    z-index: 2;
+    z-index: 3;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     padding: 0px 10px 0 10px;
     font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     color: #006dda;
-    border: 2px solid #0077ED;
+    border: 3px solid white;
+    transition: opacity 2s;
 }
 #cxpopup img{
-    width:20%;
+    width: 160px;
+    margin: 0 auto;
     border-radius: 4px;
     padding: 3px; 
-    background-color: white; 
+    background-color: white;
     display: block; 
 }
 #cxpopup p{
@@ -379,17 +388,17 @@ fill: #0077ED;
     content: '';
     display: block;
     position: relative;
-    background-color: white;
+    background-color: #0077ED;
     width: 4px;
     border-radius: 4px;
     height: 100%;
     transform: rotate(-45deg);
 }
 #xxxxxxx::before{
-    content: '';
+    content:'';
     display: block;
     position: absolute  ;
-    background-color: rgb(241, 241, 241);
+    background-color: #005bb6;
     width: 4px;
     height: 100%;
     transform: rotate(45deg);
@@ -420,4 +429,15 @@ fill: #0077ED;
     display: block;
     position: relative;
     width: 100%;
+}
+
+
+
+#blackbagd{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.788);
+    z-index: 2;
+    display: none;
 }
