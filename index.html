@@ -16,7 +16,22 @@
         function openkct(){
             open('https://api.whatsapp.com/send?phone=5562993178806')
         }
-        
+        window.setInterval(vai, 6000)
+        function vai(){
+            document.getElementById('img2').style.opacity='0'
+        }
+        window.setInterval(vai2, 12000)
+        function vai2(){
+            if (document.getElementById('img2').style.opacity='0' == '0') {
+                document.getElementById('img2').style.opacity='1'
+            }
+        }
+
+
+        /*
+        function vai(){
+            document.getElementById('img2').style.opacity='0'
+        */
     </script>
     <div id="cxpopup">
         <div onclick="closeSobre()" id="xxxxxxx"></div>
@@ -53,15 +68,18 @@
         </div>
         </div>
     </header>
+
     <!--
     <div id="capa">
-        <img src="https://http2.mlstatic.com/storage/splinter-admin/o:f_webp,q_auto:best/1625688445455-home-sliderdesktop.jpg">
+        <img id="img1" class="img3" src="https://http2.mlstatic.com/storage/splinter-admin/o:f_webp,q_auto:best/1625688445455-home-sliderdesktop.jpg">
+        <img id="img2" class="img3" src="https://http2.mlstatic.com/storage/splinter-admin/o:f_webp,q_auto:best/1625841548961-home-sliderdesktop5.jpg">
+        <img src="capa.png">
     </div>
-
 -->
 
     <div id="base">
         <section class="trsec" id="secItens">
+
  <!--prx item   ---------------------------------------------------------------------------------------- -->
     <div class="item">
         <img src="formatacao.png">
@@ -130,7 +148,9 @@ prx item   ---------------------------------------------------------------------
 -prx item   ---------------------------------------------------------------------------------------- -->
 
         </section>
-
+        <div id="locl">
+            <iframe id="ifmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.2229357847395!2d-49.27057578574819!3d-16.715724650739876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef0df506b7d95%3A0xa3ad85a545f4a406!2sTeleBrasil!5e0!3m2!1spt-BR!2sbr!4v1625794570728!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </div>
         <footer>
             <div id="créditos">
