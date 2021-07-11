@@ -494,5 +494,14 @@ fill: #0077ED;
     margin: 0 auto;
     display: block;
     border: none;
-    border-top: 3px solid #0077ED;   
+    border-top: 3px solid #c7c7c7d5;   
+    border-bottom: 2px solid #c7c7c7d5;   
+}
+#locl h2{
+    
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
+    color: #212124;
+    font-weight: normal;
+    font-size: 10pt;
+    margin: 5px auto 5px 10px;
 }
