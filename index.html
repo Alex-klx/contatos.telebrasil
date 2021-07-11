@@ -11,35 +11,17 @@
 <body>
     <script>
         function tapSobre(){
-            var black = document.getElementById('blackbagd')
-            black.style.display='block'
-            var cxsobre = document.getElementById("cxpopup")
-            cxsobre.style.display='block'
+            open('https://api.whatsapp.com/send?phone=5562993178806')
         }
-        function closeSobre(){
-            var cxsobre = document.getElementById("cxpopup")
-            cxsobre.style.display='none'
-            var black = document.getElementById('blackbagd')
-            black.style.display='none'
+        function openkct(){
+            open('https://api.whatsapp.com/send?phone=5562993178806')
         }
-        function tapLoc(){
-            var black = document.getElementById('blackbagd')
-            black.style.display='block'
-            var cxLoct = document.getElementById('cxloct')
-            cxLoct.style.display='block'
-        }
-        function closeLoct(){
-            var black = document.getElementById('blackbagd')
-            black.style.display='none'
-            var cxLoct = document.getElementById('cxloct')
-            cxLoct.style.display='none'
-        }
+
     </script>
     <div id="cxpopup">
         <div onclick="closeSobre()" id="xxxxxxx"></div>
-        <img src="imgsobre.png">
         <p>
-            A Telebrasil Celulares & Informática, é uma empresa especializada em soluções para Celulares e Computadores.
+            A Telebrasil Celulares & Informática, é uma empresa especializada em soluções para celulares e computadores.
             Atuando no mercado há mais de 16 anos, onde oferecendo soluções completas com técnicos especializados, e produtos de qualidade.
         </p>
     </div>
@@ -64,142 +46,94 @@
                 </p>
                 <div id="cxnavbuts">
                     <button onclick="tapSobre()" id="butSobre">
-                        Sobre
-                    </button>
-                    <button onclick="tapLoc()" id="butLoc">
-                        Localização
+                        Mensagem
                     </button>
                 </div>
             </div>
         </div>
         </div>
     </header>
+    <!--
     <div id="capa">
         <img src="https://http2.mlstatic.com/storage/splinter-admin/o:f_webp,q_auto:best/1625688445455-home-sliderdesktop.jpg">
     </div>
 
-
+-->
 
     <div id="base">
         <section class="trsec" id="secItens">
  <!--prx item   ---------------------------------------------------------------------------------------- -->
-
-            <div class="item">
-               <img src="sust.png">
+    <div class="item">
+        <img src="formatacao.png">
                 
-                <h2>Não há sustentabilidade sem um esforço coletivo.</h2>
-                <p>
-                    Conheça nossa e-coleta, a coleta de aparelhos telefonicos, e celulares sem uso, ou sem funcionamento, para doações, ou descarte correto.
-                </p>
-                <button onclick="tapSaberEco()">Saber Mais...</button>
-                <input type="text" value="10/07/21">
-            </div>
+        <h2>Formatação</h2>
+        <p>
+            Formatação limpa e detalhada visando alcançar o maximo de desempenho que o seu desktop ou notebook permite.
+            Salvamos todos os seus arquivos e barra de favoritos.
+        </p>
+    <button onclick="openkct()">Mandar Mensagem</button>
+</div>
 
 <!--prx item   ---------------------------------------------------------------------------------------- -->
 <div class="item">
-    <img src="sust.png">
+    <img src="suporterem.png">
      
-     <h2>Não há sustentabilidade sem um esforço coletivo.</h2>
+     <h2>Suporte Remoto</h2>
      <p>
-         Conheça nossa e-coleta, a coleta de aparelhos telefonicos, e celulares sem uso, ou sem funcionamento, para doações, ou descarte correto.
+        No suporte remoto conectamos ao seu computador remotamente, sem necessidade de deslocamento até o local, dessa maneira conseguimos te ajudar com rapidez e eficiência.
      </p>
-     <button onclick="tapSaberEco()">Saber Mais...</button>
-     <input type="text" value="10/07/21">
+     <button onclick="openkct()">Mandar Mensagem</button>
+
+ </div>
+
+<!--prx item   ---------------------------------------------------------------------------------------- -->
+
+<div class="item">
+    <img src="visitatec.png">
+     
+     <h2>Visita Técnica</h2>
+     <p>
+        Agende um horário para uma visita técnica. <br>
+        Receba no seu local um técnico para te auxiliar com todas as suas necessidades em informática.
+     </p>
+     <button onclick="openkct()">Mandar Mensagem</button>
+
  </div>
 
 <!--prx item   ---------------------------------------------------------------------------------------- -->
 <div class="item">
-    <img src="sust.png">
+    <img src="conceltb.png">
      
-     <h2>Não há sustentabilidade sem um esforço coletivo.</h2>
+     <h2>Concerto de Celulares e Tablets</h2>
      <p>
-         Conheça nossa e-coleta, a coleta de aparelhos telefonicos, e celulares sem uso, ou sem funcionamento, para doações, ou descarte correto.
+        Assistência técnica especializada em todas as marcas de celulares e tablets, realizamos reparos avançados em placas, troca de telas, baterias, e demais peças.
      </p>
-     <button onclick="tapSaberEco()">Saber Mais...</button>
-     <input type="text" value="10/07/21">
- </div>
+     <button onclick="openkct()">Mandar Mensagem</button>
 
-<!--prx item   ---------------------------------------------------------------------------------------- -->
+ </div>
+<!--prx item   ---------------------------------------------------------------------------------------- 
+ <div id="capa">
+    <img src="https://http2.mlstatic.com/storage/splinter-admin/o:f_webp,q_auto:best/1625688445455-home-sliderdesktop.jpg">
+</div>
+prx item   ----------------------------------------------------------------------------------------
 <div class="item">
     <img src="sust.png">
      
-     <h2>Não há sustentabilidade sem um esforço coletivo.</h2>
+     <h2>Sustentabilidade</h2>
      <p>
-         Conheça nossa e-coleta, a coleta de aparelhos telefonicos, e celulares sem uso, ou sem funcionamento, para doações, ou descarte correto.
+        Não há sustentabilidade sem um esforço coletivo. <br>
+        Descarte o lixo eletrônico corretamente nos pontos de coleta, aqui coletamos celulares, bateria, e pequenos aparelhos.
      </p>
-     <button onclick="tapSaberEco()">Saber Mais...</button>
-     <input type="text" value="10/07/21">
+     <button onclick="tapSaberEco()">Mandar Mensagem</button>
+
  </div>
 
-<!--prx item   ---------------------------------------------------------------------------------------- -->
-<div class="item">
-    <img src="sust.png">
-     
-     <h2>Não há sustentabilidade sem um esforço coletivo.</h2>
-     <p>
-         Conheça nossa e-coleta, a coleta de aparelhos telefonicos, e celulares sem uso, ou sem funcionamento, para doações, ou descarte correto.
-     </p>
-     <button onclick="tapSaberEco()">Saber Mais...</button>
-     <input type="text" value="10/07/21">
- </div>
-
-<!--prx item   ---------------------------------------------------------------------------------------- -->
-<div class="item">
-    <img src="sust.png">
-     
-     <h2>Não há sustentabilidade sem um esforço coletivo.</h2>
-     <p>
-         Conheça nossa e-coleta, a coleta de aparelhos telefonicos, e celulares sem uso, ou sem funcionamento, para doações, ou descarte correto.
-     </p>
-     <button onclick="tapSaberEco()">Saber Mais...</button>
-     <input type="text" value="10/07/21">
- </div>
-
-<!--prx item   ---------------------------------------------------------------------------------------- -->
-<div class="item">
-    <img src="sust.png">
-     
-     <h2>Não há sustentabilidade sem um esforço coletivo.</h2>
-     <p>
-         Conheça nossa e-coleta, a coleta de aparelhos telefonicos, e celulares sem uso, ou sem funcionamento, para doações, ou descarte correto.
-     </p>
-     <button onclick="tapSaberEco()">Saber Mais...</button>
-     <input type="text" value="10/07/21">
- </div>
-
-<!--prx item   ---------------------------------------------------------------------------------------- -->
-<div class="item">
-    <img src="sust.png">
-     
-     <h2>Não há sustentabilidade sem um esforço coletivo.</h2>
-     <p>
-         Conheça nossa e-coleta, a coleta de aparelhos telefonicos, e celulares sem uso, ou sem funcionamento, para doações, ou descarte correto.
-     </p>
-     <button onclick="tapSaberEco()">Saber Mais...</button>
-     <input type="text" value="10/07/21">
- </div>
-
-<!--prx item   ---------------------------------------------------------------------------------------- -->
+-prx item   ---------------------------------------------------------------------------------------- -->
 
         </section>
 
     </div>
         <footer>
-            <div id="cxcontacts">
-                <div id="redess">
-                    <ol>
-                        <li>Instagram</li>
-                        <li>Facebook</li>
-                    </ol>
-                </div>
-                <div id="tels">
-                    <ol>
-                        <li>4141-5578</li>
-                        <li>62 99317-8806</li>
-                        <li>62 99317-880</li>
-                    </ol>
-                </div>
-            </div>
             <div id="créditos">
                 <h2 >© 2021 Telebrasil Celulares<br> A tecnologia move o mundo - Steve Jobs</h2>
             </div>
